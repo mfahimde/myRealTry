@@ -31,7 +31,8 @@ WebElement month= driver.findElement(By.xpath("//div[@class='ui-datepicker-heade
 if (month.getText().equals("March")){
     flag=false;
     Thread.sleep(2000);
-        List<WebElement> mydates=driver.findElements(By.);
+        List<WebElement> mydates=driver.findElements(By.id("hello"));// this is wrong
+    
         for (WebElement date:mydates
              ) {
             if(date.getText().equals("13"));{
