@@ -15,5 +15,6 @@ public class RahulMainPage extends CommonMethods {
 
    public RahulMainPage(){
         PageFactory.initElements(driver,this);
+       System.out.println("some code addedd");
     }
 }
